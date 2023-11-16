@@ -1,29 +1,57 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componets/Header";
+import Banner from "./componets/Banner";
+import StickFooter from "./componets/StickFooter";
 
 const App = () => {
   return (
     <div className=" min-h-screen">
       <Header />
-
-      <main className=" h-[1024px] relative flex ">
-        <img
-          className=" absolute h-full object-cover -z-10"
-          src="./images/benjerry.main.jpg"
-          alt="main"
-        />
-        <ul className="h-[802] mt-[300px] ml-[65px]">
-          <li className="whitespace-pre-wrap font-['LilitaOne-Regular'] text-[50px] ">{`NEW Creamier-Than-Ever Non-Dairy Recipe is 
-Coming Soon!`}</li>
-          <li className="whitespace-pre-wrap mt-2 text-[17px] ">
-            {`Soon all your favorite Non-Dairy flavors will be made using a creamy and decadent new oat milk recipe! Look for new Chocolate Chip
-CookieDough Non-Dairy in freezers near you now.`}
-          </li>
-          <button className="border-2 bg-white rounded-3xl px-6 py-3 font-black mt-6 border-none">
-            Learn more
-          </button>
-        </ul>
-      </main>
+      <Banner />
+      <section className=" w-[2543px] h-[1165px] mt-[24px] px-[16px] py-[44px] mx-auto">
+        <div className=" w-[2445px] h-[48px] mt-[40px] mx-auto text-[38px] font-['LilitaOne-Regular'] ">
+          Where to Buy
+        </div>
+        <div className="grid grid-cols-2 justify-items-start gap-2 mx-auto w-[2445px]">
+          <div className="w-[1195px] h-[797px] rounded-xl bg-green-400 relative">
+            <img
+              className="w-[1195px] h-[797px] rounded-xl"
+              src="./images/benjerry.left.avif"
+              alt="left"
+            />
+          </div>
+          <div className="w-[1195px] h-[797px] rounded-xl bg-green-400">
+            <img
+              className="w-[1195px] h-[797px] rounded-xl"
+              src="./images/benjerry.right.avif"
+              alt="right"
+            />
+          </div>
+          <ul className="w-[1195px] h-[156px]  ">
+            <li className="font-black text-[32px] font-['LilitaOne-Regular']">
+              Get Ice Cream
+            </li>
+            <li className="text-[20px] font-normal">
+              Find your closest retailer or delivery partner today.
+            </li>
+            <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px]">
+              Get Ice Cream
+            </button>
+          </ul>
+          <ul className="w-[1195px] h-[156px]  ">
+            <li className="font-black text-[32px] font-['LilitaOne-Regular']">
+              Shops& Catering
+            </li>
+            <li className="text-[20px] font-normal">
+              Find your favorit flavors at a Scoop Shop near you
+            </li>
+            <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px]">
+              Find Shops&Catering
+            </button>
+          </ul>
+        </div>
+      </section>
+      <StickFooter />
     </div>
   );
 };

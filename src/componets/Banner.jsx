@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
-    <main className=" h-[1024px] relative flex ">
+    <main className="min-h-screen relative flex ">
       <img
-        className=" absolute h-full object-cover -z-10"
+        className=" absolute min-h-screen object-cover -z-10"
         src="./images/benjerry.main.jpg"
         alt="main"
       />

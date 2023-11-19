@@ -6,3 +6,13 @@
   font-family: "LilitaOne-Regular";
   src: url(./fonts/LilitaOne-Regular.ttf);
 }
+
+@layer components {
+  .date {
+    @apply text-[#676767] text-[14px];
+  }
+
+  .desc {
+    @apply text-[24px] font-['LilitaOne-Regular'] text-[#141414];
+  }
+}

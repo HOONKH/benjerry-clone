@@ -1,6 +1,6 @@
 const StickFooter = () => {
   return (
-    <footer className="bg-white w-[2543px] h-[136px] px-[56px] py-[24px] sticky bottom-0 shadow-3xl">
+    <footer className="bg-white min-w-screen h-[136px] px-[56px] py-[24px] sticky bottom-0 shadow-3xl mx-auto">
       <div className="flex justify-between items-center">
         <div className="flex justify-center items-center">
           <img

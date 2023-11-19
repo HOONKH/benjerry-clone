@@ -4,13 +4,13 @@ import { IoIosSearch, IoMdMenu, IoIosArrowDown } from "react-icons/io";
 const Header = () => {
   return (
     <>
-      <div className="bg-white h-[112px] flex items-center justify-start mx-auto w-[2560px] sticky top-0 z-10">
+      <div className="bg-white h-[112px] flex items-center justify-start mx-auto min-w-screen sticky top-0 z-10">
         <img
           className="w-[168px] ml-12"
           src="./images/benjerry.logo.avif"
           alt="logo"
         />
-        <div className="flex justify-between w-[2560px]">
+        <div className="flex justify-between w-[2114px]">
           <ul className="flex gap-16 m-12 items-center">
             <li className="font-['LilitaOne-Regular'] text-[22px] flex items-center">
               Ice Cream Flavors

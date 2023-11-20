@@ -1,7 +1,7 @@
 const MiddleBanner = () => {
   return (
     <div className="min-h-screen  flex bg-[#201460] ">
-      <div className="grid grid-cols-2 justify-items-be">
+      <div className="grid xl:grid-cols-2 lg:grid-cols-1 justify-items-be">
         <div>
           <img
             className=" min-h-screen object-cover"
@@ -9,8 +9,8 @@ const MiddleBanner = () => {
             alt="middle"
           />
         </div>
-        <div className="flex ">
-          <ul className="h-[802] mt-[350px] ml-[80px]">
+        <div className="flex flex-col items-center ">
+          <ul className="h-[802] mt-[350px] ">
             <li className="whitespace-pre-wrap font-['LilitaOne-Regular'] text-white text-[38px] font-normal ">
               Get Involved
             </li>

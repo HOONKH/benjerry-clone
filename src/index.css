@@ -15,4 +15,10 @@
   .desc {
     @apply text-[24px] font-['LilitaOne-Regular'] text-[#141414];
   }
+  .foottitle {
+    @apply text-[24px] font-['LilitaOne-Regular'] text-[#FFFFFF];
+  }
+  .footdesc {
+    @apply text-[20px] font-['LilitaOne-Regular'] text-[#FFFFFF];
+  }
 }

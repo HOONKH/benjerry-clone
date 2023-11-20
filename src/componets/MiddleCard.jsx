@@ -6,7 +6,7 @@ const MiddleCard = () => {
           Top Stories
         </h3>
       </div>
-      <div className="grid grid-cols-3 px-[48px] mx-auto -gap-2 ">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-1 px-[48px] mx-auto -gap-2 ">
         <div>
           <img
             className="h-[538px] w-[538px] rounded-lg"
@@ -45,7 +45,7 @@ Cone!`}
               Advancement Project, a national civil rights organization working
               to progress human rights and build power in local communities.
             </li>
-            <button className="mt-5 text-[16px]">Read More</button>
+            <button className="mt-5 text-[16px] line">Read More</button>
           </ul>
         </div>
         <div>

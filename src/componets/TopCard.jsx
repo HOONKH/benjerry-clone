@@ -4,7 +4,7 @@ const TopCard = () => {
       <div className=" h-[48px] text-[38px] -ml-[110px] mb-6 font-['LilitaOne-Regular'] ">
         Where to Buy
       </div>
-      <div className="grid grid-cols-2 justify-items-start gap-16 ">
+      <div className="grid xl:grid-cols-2 lg:grid-cols-1 justify-items-start gap-16 ">
         <div className="w-[875px] h-[583px] rounded-xl -ml-[110px] bg-green-400 ">
           <img
             className="w-[875px] h-[583px] rounded-xl"
@@ -19,6 +19,7 @@ const TopCard = () => {
             alt="right"
           />
         </div>
+
         <ul className="-ml-[110px] h-[156px] -mt-10">
           <li className=" font-black text-[32px] font-['LilitaOne-Regular']">
             Get Ice Cream

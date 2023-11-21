@@ -6,3 +6,22 @@
   font-family: "LilitaOne-Regular";
   src: url(./fonts/LilitaOne-Regular.ttf);
 }
+
+@layer components {
+  .date {
+    @apply text-[#676767] text-[14px];
+  }
+
+  .desc {
+    @apply text-[24px] font-['LilitaOne-Regular'] text-[#141414];
+  }
+  .foottitle {
+    @apply text-[24px] font-['LilitaOne-Regular'] text-[#FFFFFF];
+  }
+  .footdesc {
+    @apply text-[20px]  text-[#FFFFFF];
+  }
+  .underline1 {
+    @apply underline hover:bg-blue-600 rounded-lg text-[#002f87];
+  }
+}

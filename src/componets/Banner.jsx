@@ -13,7 +13,7 @@ Coming Soon!`}</li>
           {`Soon all your favorite Non-Dairy flavors will be made using a creamy and decadent new oat milk recipe! Look for new Chocolate Chip
 CookieDough Non-Dairy in freezers near you now.`}
         </li>
-        <button className="border-2 bg-white rounded-3xl px-6 py-3 font-black mt-6 border-none">
+        <button className="border-2 bg-white rounded-3xl px-6 py-3 font-black mt-6 border-none hover:bg-yellow-400 duration-500">
           Learn more
         </button>
       </ul>

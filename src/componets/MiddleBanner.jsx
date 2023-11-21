@@ -18,7 +18,7 @@ const MiddleBanner = () => {
               {`We build awareness and support for the social & environmental issues that we feel strongly about. 
 Find out how you can help.`}
             </li>
-            <button className="border-2 bg-[#FFBC0E] rounded-3xl px-6 py-3 font-black mt-6 border-none">
+            <button className="border-2 bg-[#FFBC0E] rounded-3xl px-6 py-3 font-black mt-6 border-none hover:bg-yellow-400 duration-500">
               Learn more About Our Values
             </button>
           </ul>

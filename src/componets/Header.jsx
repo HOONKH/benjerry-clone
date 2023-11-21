@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 import { IoIosSearch, IoMdMenu, IoIosArrowDown } from "react-icons/io";
 
-const Header = () => {
+const Header = ({ isHidden }) => {
   return (
     <>
-      <div className="bg-white h-[112px] flex items-center justify-start mx-auto min-w-screen sticky top-0 z-10">
+      <div
+        className={`bg-white h-[112px] flex items-center justify-start mx-auto max-w-screen sticky top-0 z-10 duration-100 ${
+          isHidden && "opacity-0 duration-1000"
+        }`}
+      >
         <img
           className="w-[168px] ml-12"
           src="./images/benjerry.logo.avif"
@@ -59,13 +63,17 @@ const Header = () => {
               Contact Us
             </li>
           </ul>
-          <ul className="mr-7 w-18 gap-5 px-6 flex">
-            <button className="text-[36px] ">
-              <IoIosSearch />
-            </button>
-            <button>
-              <IoMdMenu className="text-[36px] font-light " />
-            </button>
+          <ul className="mr-7 w-18 gap-5 px-6 flex items-center">
+            <div>
+              <button className="text-[36px] ">
+                <IoIosSearch />
+              </button>
+            </div>
+            <div>
+              <button>
+                <IoMdMenu className="text-[36px] font-light flex lg:block" />
+              </button>
+            </div>
           </ul>
         </div>
       </div>

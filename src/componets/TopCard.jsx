@@ -27,7 +27,7 @@ const TopCard = () => {
           <li className="text-[20px] font-normal">
             Find your closest retailer or delivery partner today.
           </li>
-          <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px]">
+          <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px] hover:bg-yellow-400 duration-500">
             Get Ice Cream
           </button>
         </ul>
@@ -38,7 +38,7 @@ const TopCard = () => {
           <li className="text-[20px] font-normal">
             Find your favorit flavors at a Scoop Shop near you
           </li>
-          <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px]">
+          <button className="font-black rounded-full mt-[16px] border-2 border-none bg-[#FFBC0E] py-[16px] px-[32px] hover:bg-yellow-400 duration-500">
             Find Shops&Catering
           </button>
         </ul>

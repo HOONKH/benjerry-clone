@@ -19,6 +19,9 @@
     @apply text-[24px] font-['LilitaOne-Regular'] text-[#FFFFFF];
   }
   .footdesc {
-    @apply text-[20px] font-['LilitaOne-Regular'] text-[#FFFFFF];
+    @apply text-[20px]  text-[#FFFFFF];
+  }
+  .underline1 {
+    @apply underline hover:bg-blue-600 rounded-lg text-[#002f87];
   }
 }

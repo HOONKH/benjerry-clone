@@ -24,7 +24,7 @@ Slices`}
               for Chocolate Peanut Butter Ice Cream Slices and impress your
               whole crew.
             </li>
-            <button className="mt-5 text-[16px]">Read More</button>
+            <button className="mt-5 text-[18px] underline1">Read More</button>
           </ul>
         </div>
         <div>
@@ -45,7 +45,7 @@ Cone!`}
               Advancement Project, a national civil rights organization working
               to progress human rights and build power in local communities.
             </li>
-            <button className="mt-5 text-[16px] line">Read More</button>
+            <button className="mt-5 text-[18px] underline1">Read More</button>
           </ul>
         </div>
         <div>
@@ -67,7 +67,7 @@ Coming Soon to Your Freezer!`}
               decadent oat milk recipe! Look for new Chocolate Chip Cookie Dough
               Non-Dairy in freezers near you now.
             </li>
-            <button className="mt-5 text-[16px]">Read More</button>
+            <button className="mt-5 text-[18px] underline1">Read More</button>
           </ul>
         </div>
       </div>

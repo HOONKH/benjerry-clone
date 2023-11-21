@@ -1,43 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componets/Header";
-import Banner from "./componets/Banner";
-import StickFooter from "./componets/StickFooter";
-import TopCard from "./componets/TopCard";
-import MiddleBanner from "./componets/MiddleBanner";
-import MiddleCard from "./componets/MiddleCard";
-import TopFooter from "./componets/TopFooter";
 
-import { useEffect, useState } from "react";
-
-import Footer from "./componets/Footer";
-// w-[2543px] h-[1165px]
 const App = () => {
-  const [isHidden, setIsHidden] = useState(false);
-
-  const scrollEvent = () => {
-    if (window.scrollY > 1000) {
-      setIsHidden(true);
-    } else {
-      setIsHidden(false);
-    }
-  };
-  useEffect(() => {
-    const watchScroll = () => window.addEventListener("scroll", scrollEvent);
-    watchScroll();
-
-    return () => window.removeEventListener("scroll", scrollEvent);
-  }, []);
   return (
     <div className=" min-h-screen">
-      <Header isHidden={isHidden} />
-      <Banner />
-      <TopCard />
-      <MiddleBanner />
-      <MiddleCard />
-      <TopFooter />
+      <Header />
 
-      <Footer />
-      <StickFooter />
+      <main className=" h-[1024px] relative flex ">
+        <img
+          className=" absolute h-full object-cover -z-10"
+          src="./images/benjerry.main.jpg"
+          alt="main"
+        />
+        <ul className="h-[802] mt-[300px] ml-[65px]">
+          <li className="whitespace-pre-wrap font-['LilitaOne-Regular'] text-[50px] ">{`NEW Creamier-Than-Ever Non-Dairy Recipe is 
+Coming Soon!`}</li>
+          <li className="whitespace-pre-wrap mt-2 text-[17px] ">
+            {`Soon all your favorite Non-Dairy flavors will be made using a creamy and decadent new oat milk recipe! Look for new Chocolate Chip
+CookieDough Non-Dairy in freezers near you now.`}
+          </li>
+          <button className="border-2 bg-white rounded-3xl px-6 py-3 font-black mt-6 border-none">
+            Learn more
+          </button>
+        </ul>
+      </main>
     </div>
   );
 };
